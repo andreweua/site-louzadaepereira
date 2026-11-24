@@ -1,0 +1,11 @@
+{
+  "name": "grupo-louzada-pereira-portal",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/tailwind.input.css -o ./assets/css/tailwind.generated.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

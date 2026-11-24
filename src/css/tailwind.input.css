@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* O layout principal usa assets/css/styles.css. Este arquivo habilita utilitários Tailwind compilados para futuras expansões. */
