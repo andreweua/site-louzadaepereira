@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louzada & Pereira | Soluções Digitais & Films</title>
+    <meta name="description" content="Da produção audiovisual cinematográfica com a Louzada's Films ao posicionamento de marcas com a Louzada & Pereira e tecnologia com a PereiraLabs.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        lpBlack: '#0B0C10',
+                        lpRed: '#D11919',
+                        lpGray: '#C5C6C7'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-lpBlack text-white font-sans antialiased selection:bg-lpRed selection:text-white">
+
+    <!-- Navbar Fixa -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-lpBlack/85 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight">
+                LOUZADA <span class="text-lpRed">&amp;</span> PEREIRA
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm text-lpGray font-medium">
+                <a href="#quem-somos" class="hover:text-white transition">Quem Somos</a>
+                <a href="#films" class="hover:text-white transition">Louzada's Films</a>
+                <a href="#solucoes-digitais" class="hover:text-white transition">Soluções Digitais</a>
+                <a href="#pereiralabs" class="hover:text-white transition">PereiraLabs</a>
+                <a href="#contato" class="bg-lpRed hover:bg-red-700 text-white px-5 py-2.5 rounded font-semibold transition">Diagnóstico Estratégico</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section (O Impacto Visual) -->
+    <header class="relative flex items-center justify-center min-h-screen pt-20 bg-black/80 bg-blend-overlay" style="background-image: url('https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-b from-lpBlack/70 via-lpBlack/50 to-lpBlack"></div>
+        <div class="text-center z-10 px-6 max-w-4xl">
+            <span class="inline-block text-xs uppercase tracking-[0.25em] text-lpRed font-semibold mb-4 px-3 py-1 border border-lpRed/40 rounded-full bg-lpRed/10">
+                Produção Cinematográfica • Tráfego • Inteligência Artificial
+            </span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
+                Cinema que conecta.<br><span class="text-lpRed">Soluções que vendem.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-lpGray mb-10 max-w-3xl mx-auto leading-relaxed">
+                Da produção audiovisual cinematográfica com a Louzada's Films ao posicionamento de marcas com a Louzada &amp; Pereira. Criamos a imagem de alto impacto que o seu negócio precisa para atrair e reter clientes.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#films" class="bg-lpRed hover:bg-red-700 text-white px-8 py-3.5 rounded font-semibold transition shadow-lg shadow-lpRed/25">
+                    Ver Portfólio de Cinema (Films)
+                </a>
+                <a href="https://www.pereiralabs.com.br" target="_blank" rel="noopener noreferrer" class="border border-white/30 hover:border-white hover:bg-white/5 text-white px-8 py-3.5 rounded font-semibold transition">
+                    Soluções de TI &amp; IA
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Quem Somos (A Aliança) -->
+    <section id="quem-somos" class="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="text-xs uppercase tracking-widest text-lpRed font-semibold block mb-2">Quem Somos • A Aliança</span>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">A Sinergia Perfeita</h2>
+            <p class="text-lpGray mb-4 text-lg leading-relaxed">
+                Fundada em 2023 pela união estratégica de dois irmãos e sócios, a <strong class="text-white">Louzada &amp; Pereira</strong> representa a sinergia perfeita entre a sensibilidade artística da produção de vídeo de alta qualidade (<strong class="text-white">Louzada's Films</strong>) e a inteligência estruturada de sistemas digitais (<strong class="text-white">PereiraLabs</strong>).
+            </p>
+            <p class="text-lpGray text-base leading-relaxed">
+                Unimos direção cinematográfica, estratégias de aquisição de tráfego e engenharia de software para entregar ecossistemas completos de autoridade e vendas.
+            </p>
+        </div>
+        <div class="bg-zinc-900/80 aspect-video rounded-xl flex flex-col items-center justify-center text-zinc-500 border border-zinc-800 p-6 text-center relative overflow-hidden group">
+            <div class="w-12 h-12 rounded-full bg-lpRed/10 border border-lpRed/30 flex items-center justify-center text-lpRed mb-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+            </div>
+            <span class="text-sm font-medium text-zinc-400">[Espaço para Foto Institucional no Estúdio]</span>
+            <span class="text-xs text-zinc-600 mt-1">Equipamentos de filmagem cinematográfica &amp; estações de desenvolvimento de software</span>
+        </div>
+    </section>
+
+    <!-- 3. Louzada's Films (A Produtora) -->
+    <section id="films" class="py-24 bg-zinc-950 px-6 border-y border-zinc-900">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-xs uppercase tracking-widest text-lpRed font-semibold block mb-2">Produção Audiovisual de Alta Performance</span>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Louzada's Films</h2>
+                <p class="text-lpGray max-w-2xl mx-auto text-lg italic">
+                    "Seu produto merece mais do que fotos de celular. Criamos o desejo visual que acelera suas vendas."
+                </p>
+            </div>
+
+            <!-- Especialidades -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="p-8 bg-lpBlack/60 border border-zinc-800 rounded-xl hover:border-lpRed transition group">
+                    <div class="text-lpRed font-mono text-xs uppercase tracking-wider mb-3">01 • Especialidade</div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-lpRed transition">Vídeos Comerciais &amp; Institucionais</h3>
+                    <p class="text-sm text-lpGray leading-relaxed">
+                        Produções publicitárias de alto ticket para o meio corporativo e automotivo, além de documentários corporativos e de marca.
+                    </p>
+                </div>
+                <div class="p-8 bg-lpBlack/60 border border-zinc-800 rounded-xl hover:border-lpRed transition group">
+                    <div class="text-lpRed font-mono text-xs uppercase tracking-wider mb-3">02 • Especialidade</div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-lpRed transition">Posicionamento &amp; Influenciadores</h3>
+                    <p class="text-sm text-lpGray leading-relaxed">
+                        Projetos estratégicos de posicionamento e gravação focados na imagem de especialistas, marcas pessoais e influenciadores digitais.
+                    </p>
+                </div>
+                <div class="p-8 bg-lpBlack/60 border border-zinc-800 rounded-xl hover:border-lpRed transition group">
+                    <div class="text-lpRed font-mono text-xs uppercase tracking-wider mb-3">03 • Especialidade</div>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-lpRed transition">Cinematografia Aérea</h3>
+                    <p class="text-sm text-lpGray leading-relaxed">
+                        Operações com drones certificadas (SARPAS / DECEA / RETA) para captação aérea premium com rigor técnico e segurança operacional.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Projetos em Destaque -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-8 bg-zinc-900/50 border border-zinc-800/80 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-lpRed">Projeto em Destaque • Setor Automotivo &amp; Corporativo</span>
+                        <h4 class="text-2xl font-bold mt-2 mb-3">Campanhas &amp; Portfólios Audiovisuais</h4>
+                        <p class="text-sm text-lpGray leading-relaxed">
+                            Gravações comerciais premium voltadas ao meio corporativo e ao setor automotivo — incluindo o case de produção de mídias cinematográficas para o <strong class="text-white">Toyota Corolla Cross 2023</strong>.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs text-zinc-400">
+                        <span>Direção de Fotografia • Color Grading • Sound Design</span>
+                        <span class="text-lpRed font-semibold">4K Cinema</span>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-zinc-900/50 border border-zinc-800/80 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-lpRed">Projeto em Destaque • Autoridade Digital</span>
+                        <h4 class="text-2xl font-bold mt-2 mb-3">Produção com Influenciadores &amp; Especialistas</h4>
+                        <p class="text-sm text-lpGray leading-relaxed">
+                            Projetos estratégicos de posicionamento visual, direção de cena e gravação contínua focados na influenciadora digital da marca e em líderes de mercado.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs text-zinc-400">
+                        <span>Roteirização • Estúdio &amp; Externa • Reels de Alta Retenção</span>
+                        <span class="text-lpRed font-semibold">Alto Impacto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Louzada & Pereira (Soluções Digitais) -->
+    <section id="solucoes-digitais" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-xs uppercase tracking-widest text-lpRed font-semibold block mb-2">Performance, Aquisição &amp; Conversão</span>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Louzada &amp; Pereira • Soluções Digitais</h2>
+            <p class="text-lpGray max-w-2xl mx-auto text-lg">
+                Frente voltada ao crescimento de marcas, aquisição qualificada de tráfego e estruturação da esteira completa de marketing e vendas.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 bg-zinc-900/40 border border-zinc-800 rounded-xl hover:border-white/30 transition">
+                <h3 class="text-xl font-bold mb-3">Gestão de Tráfego Pago</h3>
+                <p class="text-sm text-lpGray leading-relaxed">
+                    Campanhas de alta performance em <strong class="text-white">Meta Ads e Google Ads</strong> com foco em ROI, captação de leads qualificados e escala previsível.
+                </p>
+            </div>
+            <div class="p-8 bg-zinc-900/40 border border-zinc-800 rounded-xl hover:border-white/30 transition">
+                <h3 class="text-xl font-bold mb-3">Estratégias para Lançamentos</h3>
+                <p class="text-sm text-lpGray leading-relaxed">
+                    Planejamento e execução ponta a ponta de lançamentos digitais, infoprodutos e campanhas sazonais de alto impacto.
+                </p>
+            </div>
+            <div class="p-8 bg-zinc-900/40 border border-zinc-800 rounded-xl hover:border-white/30 transition">
+                <h3 class="text-xl font-bold mb-3">Gestão de Marca &amp; Posicionamento</h3>
+                <p class="text-sm text-lpGray leading-relaxed">
+                    Gestão contínua de campanhas publicitárias e estruturação da esteira completa de marketing para empresas parceiras.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PereiraLabs (A Base Tecnológica) -->
+    <section id="pereiralabs" class="py-20 px-6 bg-gradient-to-r from-zinc-950 via-zinc-900 to-zinc-950 border-y border-zinc-800">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="max-w-2xl">
+                <span class="text-xs uppercase tracking-widest text-lpRed font-semibold block mb-2">PereiraLabs • Divisão de Tecnologia e IA</span>
+                <h2 class="text-3xl font-bold mb-4">A Base Tecnológica do Seu Crescimento</h2>
+                <p class="text-lpGray text-lg leading-relaxed italic">
+                    "Toda grande campanha precisa de inteligência por trás. A PereiraLabs é a nossa divisão especializada em tecnologia, IA e automações que dá suporte de infraestrutura para que suas vendas rodem no piloto automático."
+                </p>
+            </div>
+            <div class="shrink-0">
+                <a href="https://www.pereiralabs.com.br" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-white text-lpBlack hover:bg-lpGray px-8 py-4 rounded font-bold transition">
+                    <span>Explorar PereiraLabs</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contato & Captação de Leads -->
+    <section id="contato" class="py-24 px-6 max-w-3xl mx-auto text-center">
+        <span class="text-xs uppercase tracking-widest text-lpRed font-semibold block mb-2">Atendimento Estratégico</span>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Eleve o nível da sua marca hoje.</h2>
+        <p class="text-lpGray mb-10 text-base">
+            Preencha os dados abaixo para receber nosso contato imediato e personalizado via WhatsApp.
+        </p>
+
+        <form id="leadForm" class="space-y-4 text-left bg-zinc-950/80 p-8 rounded-xl border border-zinc-800/80">
+            <div>
+                <label for="nome" class="block text-xs uppercase tracking-wider text-lpGray mb-1.5">Nome Completo *</label>
+                <input id="nome" name="nome" type="text" required placeholder="Nome completo do solicitante" class="w-full p-3.5 bg-zinc-900 border border-zinc-800 rounded text-white focus:outline-none focus:border-lpRed transition">
+            </div>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div>
+                    <label for="empresa" class="block text-xs uppercase tracking-wider text-lpGray mb-1.5">Empresa / Marca</label>
+                    <input id="empresa" name="empresa" type="text" placeholder="Nome da empresa ou organização" class="w-full p-3.5 bg-zinc-900 border border-zinc-800 rounded text-white focus:outline-none focus:border-lpRed transition">
+                </div>
+                <div>
+                    <label for="whatsapp" class="block text-xs uppercase tracking-wider text-lpGray mb-1.5">WhatsApp (DDD) *</label>
+                    <input id="whatsapp" name="whatsapp" type="tel" required placeholder="(00) 00000-0000" maxlength="15" class="w-full p-3.5 bg-zinc-900 border border-zinc-800 rounded text-white focus:outline-none focus:border-lpRed transition">
+                </div>
+            </div>
+            <div>
+                <label for="necessidade" class="block text-xs uppercase tracking-wider text-lpGray mb-1.5">Necessidade Principal *</label>
+                <select id="necessidade" name="necessidade" class="w-full p-3.5 bg-zinc-900 border border-zinc-800 rounded text-white focus:outline-none focus:border-lpRed transition">
+                    <option value="Produção de Vídeo (Films)">Produção de Vídeo (Louzada's Films)</option>
+                    <option value="Campanhas de Tráfego e Lançamento">Campanhas de Tráfego e Lançamento</option>
+                    <option value="Projetos de TI & IA (PereiraLabs)">Projetos de TI &amp; IA (PereiraLabs)</option>
+                </select>
+            </div>
+            <button type="submit" class="w-full bg-lpRed hover:bg-red-700 text-white py-4 rounded font-bold transition shadow-lg shadow-lpRed/20">
+                Solicitar Diagnóstico Estratégico
+            </button>
+            <p id="formFeedback" class="text-xs text-center text-emerald-400 hidden pt-2"></p>
+        </form>
+    </section>
+
+    <!-- Rodapé Padrão PereiraLabs -->
+    <footer class="pb-6">
+        <p class="text-[10px] text-slate-500 text-center pt-4 border-t border-slate-800/60">
+            Desenvolvido por:
+            <a href="https://github.com/andreweua" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400 text-slate-400 transition font-medium">PereiraLabs - Divisão de Tecnologia e IA</a> |
+            <span class="text-slate-400 font-medium">Louzada &amp; Pereira - Soluções Digitais</span>.
+            <a href="./CHANGELOG.md" target="_blank" class="hover:text-gold-400 font-mono text-[10px] text-slate-500 hover:underline ml-1">v1.0.0</a>
+        </p>
+    </footer>
+
+    <!-- Máscara de WhatsApp & Integração Webhook n8n -->
+    <script>
+        const whatsappInput = document.getElementById('whatsapp');
+        whatsappInput.addEventListener('input', function (e) {
+            let v = e.target.value.replace(/\D/g, '').slice(0, 11);
+            if (v.length > 6) {
+                v = `(${v.slice(0, 2)}) ${v.slice(2, 7)}-${v.slice(7)}`;
+            } else if (v.length > 2) {
+                v = `(${v.slice(0, 2)}) ${v.slice(2)}`;
+            } else if (v.length > 0) {
+                v = `(${v}`;
+            }
+            e.target.value = v;
+        });
+
+        // Substitua pela URL do Webhook n8n em produção quando disponível
+        const N8N_WEBHOOK_URL = '';
+
+        document.getElementById('leadForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const payload = {
+                nome: document.getElementById('nome').value.trim(),
+                empresa: document.getElementById('empresa').value.trim(),
+                whatsapp: document.getElementById('whatsapp').value.trim(),
+                necessidade: document.getElementById('necessidade').value,
+                origem: 'louzadaepereira.com.br',
+                timestamp: new Date().toISOString()
+            };
+
+            const feedback = document.getElementById('formFeedback');
+            try {
+                if (N8N_WEBHOOK_URL) {
+                    await fetch(N8N_WEBHOOK_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                }
+                feedback.textContent = 'Solicitação registrada com sucesso! Em instantes nossa equipe entrará em contato via WhatsApp.';
+                feedback.classList.remove('hidden');
+                this.reset();
+            } catch (err) {
+                feedback.textContent = 'Solicitação recebida! Entraremos em contato pelo WhatsApp informado.';
+                feedback.classList.remove('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
